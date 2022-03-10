@@ -1,0 +1,25 @@
+{
+    "annonces": [
+        {
+            "nom": "Nissan 370z",
+            "prix": 22000,
+            "description": "Bonjour, Je me sépare de ma 370 Z. Voiture plaisir du week end en ma possession depuis 3 ans. Moteur refait a neuf.",
+            "createdAt": "2022-03-9 12:50:33",
+            "categoriesId": 1
+        },
+        {
+            "nom": "Toyota supra",
+            "prix": 59900,
+            "description": "Je vends ma Toyota Supra Mk4, c’est une rhd, elle est dans un superbe état, il y a une belle préparation moteur et châssis, très grosse liste de pièces perf. Rien à prévoir.",
+            "createdAt": "2022-03-10 12:50:33",
+            "categoriesId": 1
+        },
+        {
+            "nom": "Nissan Stagea facelift R34",
+            "prix": 24500.99,
+            "description": "Bonjours, je met en vente ma Nissan Stagea Rs four S (RB25DET/4rm de GTR + Hicas) homologuée (4 places) pour passer à un véhicule plus récent. Véhicule du week-end depuis 2 ans, ayant parcouru environ 10.000km. Kilométrage peu évolutif. Controle Technique a jour, passé le 09/07/2021 (Ce qui en ressort: Échappement frotté et passage de roues avant)",
+            "createdAt": "2022-03-10 12:50:33",
+            "categoriesId": 1
+        }
+    ]
+}

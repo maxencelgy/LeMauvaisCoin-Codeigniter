@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 2rem;
+  box-shadow: 0 -1px 4px 0 rgb(26 26 26 / 8%), 0 4px 8px 0 rgb(26 26 26 / 12%);
+  margin-bottom: 3rem;
+}
+header .wrapNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+header .wrapNav a {
+  text-decoration: none;
+}
+header .wrapNav .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 31.3333%;
+}
+header .wrapNav .left .logo {
+  font-weight: 900;
+  font-size: 1.9rem;
+  color: #ff6e14;
+  font-size: 1rem;
+}
+
+header .wrapNav .left .add {
+  background-color: #ff6e14;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+header .wrapNav .searchbar {
+  width: 31.3333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .wrapNav .searchbar i {
+  margin-right: 1rem;
+}
+header .wrapNav .right {
+  width: 31.3333%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .wrapNav .right a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.filtre {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 -1px 4px 0 rgb(26 26 26 / 8%), 0 4px 8px 0 rgb(26 26 26 / 12%);
+  margin: 0 auto;
+  max-width: 93rem;
+  padding: 2rem;
+  position: relative;
+}
+.filtre .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.filtre .radio {
+  margin-bottom: 2rem;
+}
+.filtre select {
+  width: 24.33333%;
+  padding: 0.8rem;
+}
+.filtre input {
+  width: 24.33333%;
+  padding: 0.8rem;
+}
+.filtre input[type="submit"] {
+  cursor: pointer;
+}
+
+.rechercher {
+  font-weight: 500;
+  color: white;
+  background-color: #4183d7;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%);
+}
+.depot {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.depot a {
+  border-radius: 0.3rem;
+  background-color: #ff6e14;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem;
+  display: inline;
+}
+#topCat h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#topCat .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+#topCat .cards .card {
+  padding: 1rem;
+  background-color: gray;
+  border-radius: 0.3rem;
+  width: 31.3333%;
+  text-align: center;
+  color: white;
+}
+
+/* ANNONCES */
+
+#topAnnonces {
+}
+#topAnnonces h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+#topAnnonces .cardAnn {
+  border-radius: 0.3rem;
+  border: gray solid 1px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#topAnnonces .cardAnn a {
+  background-color: #4183d7;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+}
+.formu {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+}
+.formu label {
+  margin-bottom: 1rem;
+}
+.formu input {
+  width: 40%;
+  border: solid 1px black;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+.formu select {
+  width: 40%;
+  border: solid 1px black;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+.formu textarea {
+  width: 40%;
+  height: 200px;
+  resize: none;
+  margin-bottom: 1rem;
+}
+/* SINGLE */
+.single {
+  text-align: center;
+}
+.singleTitle {
+  margin-bottom: 3rem;
+}
+.singleView {
+}
+.singleView :nth-child(1) {
+  background-color: #4183d7;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.3rem;
+}
+.singleView :nth-child(2) {
+  background-color: #ff6e14;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.3rem;
+}
